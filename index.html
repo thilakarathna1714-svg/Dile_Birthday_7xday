@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Memories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+Sinhala:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+  <div id="cover">
+    <div id="coverBg"></div>
+    <div class="cover-in">
+      <p id="coverSub"></p>
+      <h1 id="coverName"></h1>
+      <div class="open-btn"><span>♥</span></div>
+      <p class="tap">Tap to open</p>
+    </div>
+  </div>
+
+  <div id="stage" class="hide">
+    <div id="progress"></div>
+    <div id="slides"></div>
+    <div id="lyric"></div>
+  </div>
+
+  <div id="finale" class="hide">
+    <div id="finaleBg"></div>
+    <div class="fin-in">
+      <p id="finSub"></p>
+      <h1 id="finName"></h1>
+      <p id="finText"></p>
+      <button id="replay">↻ නැවත බලන්න</button>
+    </div>
+  </div>
+
+  <button id="musicBtn" class="hide" aria-label="music">🔊</button>
+  <div id="fx"></div>
+  <div id="flash"></div>
+  <audio id="audio" preload="auto"></audio>
+
+  <script src="data.js"></script>
+  <script src="../assets/script.js"></script>
+</body>
+</html>
